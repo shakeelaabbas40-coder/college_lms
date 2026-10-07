@@ -1,5 +1,5 @@
 name: college_lms
-description: "**Learning Management System (LMS)** is a digital platform designed to manage and simplify academic activities. It allows students and teachers to access courses, attendance, assignments, quizzes, results, and important notices in one place."
+description: "A comprehensive College Learning Management System (LMS)."
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  shared_preferences: ^2.5.6
 
 dev_dependencies:
   flutter_test:
